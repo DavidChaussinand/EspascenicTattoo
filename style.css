@@ -283,8 +283,19 @@ h6 {
   display: grid;
   grid-template-columns: repeat(auto-fill, 300px);
   justify-content: center;
-  grid-gap: 10px;
+  grid-gap: 30px;
 }
+
+.grille2 img {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  
+}
+
+.grille2 img:active {
+  transform: scale(2);
+}
+
 
 .grid-item {
   width: 300px;
@@ -297,6 +308,9 @@ h6 {
   .margin-left {
 
     margin-left: 0px;
+  }
+  .grille2 img:active {
+    transform: scale(1.3);
   }
 }
 
